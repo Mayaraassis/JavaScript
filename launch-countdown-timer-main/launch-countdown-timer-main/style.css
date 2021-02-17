@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+body {
+  background-image: url("./images/bg-stars.svg");
+  background-color: #201e29;
+  font-family: "Red Hat Text", sans-serif;
+  font-size: 14px;
+}
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: hsl(0, 0%, 100%);
+  margin: 40px 0;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.days p,
+.hours p,
+.minutes p,
+.seconds p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  color: hsl(237, 18%, 59%);
+  font-weight: 500;
+}
+
+.box {
+  width: 90px;
+  height: 80px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: hsl(345, 95%, 68%);
+  font-weight: 700;
+  font-size: 28px;
+  background-color: hsl(236, 21%, 26%);
+  border-radius: 4px;
+  border-bottom: 6px solid hsl(234, 17%, 12%);
+  position: relative;
+  overflow-x: hidden;
+}
+.box::after {
+  content: "";
+  position: absolute;
+  background-color: #191a24;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  bottom: 30px;
+  left: -5px;
+}
+.box::before {
+  content: "";
+  position: absolute;
+  background-color: #191a24;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  bottom: 30px;
+  right: -5px;
+}
+
+.bg_bottom {
+  background-image: url("./images/pattern-hills.svg");
+  margin-top: 100px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-left: 180px;
+}
+
+.logos img {
+  margin: 2px;
+}
+
+.logos img:hover {
+  background-color: hsl(345, 95%, 68%);
+  cursor: pointer;
+  opacity: 0.7;
+}
