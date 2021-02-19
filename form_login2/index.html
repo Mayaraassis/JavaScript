@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tela de Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="container_box">
+      <div class="lg">
+        <h3 class="active log title">Login</h3>
+        <h3 class="reg title">Register</h3>
+      </div>
+      <div class="form form_login">
+        <form>
+          <label for="user">Username</label>
+          <input id="user" type="text" name="user" autocomplete="off">
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password">
+          <input type="submit" class="btn" value="Login">
+        </form>
+        <p>Forgot password?</p>
+      </div>
+
+      <div class="form form_register">
+        <label for="mail">Email</label>
+        <input type="email" name="mail" id="mail">
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username" autocomplete="off">
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password">
+        <input type="submit" class="btn" value="Register">
+      </div>
+
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
